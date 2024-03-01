@@ -11,7 +11,7 @@
 
 
 
-# 😃 Introduction
+## 😃 Introduction
 We are excited to present "Towards Tracing Trustworthiness Dynamics: Revisiting Pre-training Period of Large Language Models," a pioneering study on exploring trustworthiness in LLMs during pre-training. 
 We explores five key dimensions of trustworthiness: reliability, privacy, toxicity, fairness, and robustness. 
 By employing linear probing and extracting steering vectors from LLMs' pre-training checkpoints, the study aims to uncover the potential of pre-training in enhancing LLMs' trustworthiness. Furthermore, we investigates the dynamics of trustworthiness during pre-training through mutual information estimation, observing a two-phase phenomenon: fitting and compression. 
@@ -22,7 +22,7 @@ Our findings unveil new insights and encourage further developments in improving
 
 
 
-#  🚩Features
+##  🚩Features
 
 We want to **ANSWER**: 
 
@@ -35,21 +35,21 @@ We **FIND** that:
 - Steering vectors extracted from pre-training checkpoints could *promisingly enhance the SFT model’s trustworthiness*.
 - During the pretraining period of LLMs, there exist two distinct phases regarding trustworthiness: *fitting and compression*.
 
-# 🚀Getting Started
+## 🚀Getting Started
 
-## 💻Prerequisites
+### 💻Prerequisites
 
-## 🔧Installation
+### 🔧Installation
 
-## 🌟Usage
+### 🌟Usage
 
-# 💪To-Do List
+## 💪To-Do List
 We are currently organizing the code for TracingLLM. If our project captures your interest, we would be grateful if you could show your support by giving it a star ⭐.
 
-# 📝License
+## 📝License
 Distributed under the Apache-2.0 License. See LICENSE for more information.
 
-# 📖BibTeX
+## 📖BibTeX
 ```
 @misc{qian2024tracing,
       title={Towards Tracing Trustworthiness Dynamics: Revisiting Pre-training Period of Large Language Models}, 
