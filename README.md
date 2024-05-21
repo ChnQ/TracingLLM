@@ -37,14 +37,24 @@ We **FIND** that:
 
 ## 🚀Getting Started
 
-### 💻Prerequisites
-
 ### 🔧Installation
-
+```
+conda env create -f environment.yml
+```
 ### 🌟Usage
+> Tips: Before running the script, please replace the model storage path in `src/generate_activations.py`, `src/eval_trustworthiness.py` file with your actual model storage path
 
-## 💪To-Do List
-We are currently organizing the code for TracingLLM. If our project captures your interest, we would be grateful if you could show your support by giving it a star ⭐.
+#### 1. Run the Probing Experiments (Section 2: Probing LLM Pre-training Dynamics in Trustworthiness)
+```
+cd src/
+sh scripts/probing.sh
+```
+#### 2. Run the Steering Vector Experiments (Section 3: Controlling Trustworthiness via the Steering Vectors from Pre-training Checkpoints)
+```
+cd src/
+sh scripts/steering.sh
+```
+
 
 ## 📝License
 Distributed under the Apache-2.0 License. See LICENSE for more information.
