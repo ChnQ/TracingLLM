@@ -61,11 +61,9 @@ Distributed under the Apache-2.0 License. See LICENSE for more information.
 
 ## 📖BibTeX
 ```
-@misc{qian2024tracing,
-      title={Towards Tracing Trustworthiness Dynamics: Revisiting Pre-training Period of Large Language Models}, 
-      author={Chen Qian and Jie Zhang and Wei Yao and Dongrui Liu and Zhenfei Yin and Yu Qiao and Yong Liu and Jing Shao},
-      year={2024},
-      eprint={2402.19465},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{qian2024towards,
+  title={Towards Tracing Trustworthiness Dynamics: Revisiting Pre-training Period of Large Language Models},
+  author={Qian, Chen and Zhang, Jie and Yao, Wei and Liu, Dongrui and Yin, Zhenfei and Qiao, Yu and Liu, Yong and Shao, Jing},
+  journal={arXiv preprint arXiv:2402.19465},
+  year={2024}
 }
